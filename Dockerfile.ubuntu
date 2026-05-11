@@ -1,4 +1,6 @@
 FROM ubuntu:24.04
 
+RUN useradd -u 1001 -m githubuser
+
 RUN apt-get update
 RUN apt-get install -y libfontconfig1-dev curl build-essential gh git
