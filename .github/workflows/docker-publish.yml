@@ -26,6 +26,6 @@ jobs:
           push: true
           tags: |
             ${{ secrets.DOCKERHUB_USERNAME }}/krustty-ubuntu:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/krustty-ubuntu:1.0.0
+            ${{ secrets.DOCKERHUB_USERNAME }}/krustty-ubuntu:1.0.1
           context: .
           file: ./Dockerfile.ubuntu
